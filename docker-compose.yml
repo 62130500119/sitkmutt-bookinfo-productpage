@@ -1,0 +1,6 @@
+services:
+  productpage:
+    build: .
+    image: ghcr.io/62130500119/bookinfo-productpage:dev
+    ports:
+      - "8083:8083"
